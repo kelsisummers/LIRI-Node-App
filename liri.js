@@ -65,9 +65,9 @@ if (process.argv[2] === 'movie-this'){
 }
 
 spotify
-  .search({ type: 'track', query: 'All the Small Things' })
+  .search({ type: 'track', query: 'All the Small Things', limit: 1 })
   .then(function(response) {
-    console.log(response);
+    console.log(JSON.stringify(response, null, 2));
   })
   .catch(function(err) {
     console.log(err);
