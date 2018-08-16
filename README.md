@@ -10,8 +10,8 @@ Instructions for using Liri:
   - Provide Input When Prompted
 
     
-Software Stack:
-  - Javascript
+Tech Stack:
+  - JavaScript
   - Node
 
 
